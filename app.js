@@ -1,7 +1,7 @@
 const moongoose = require("mongoose");
 
 // connection creation and creation new db
-moongoose.connect('mongodb://localhost:27017/ttchanell',
+moongoose.connect('mongodb://localhost:27017/ram',
     {useNewUrlParser:true,
     useCreateIndex:true,
     useFindAndModify: true,
